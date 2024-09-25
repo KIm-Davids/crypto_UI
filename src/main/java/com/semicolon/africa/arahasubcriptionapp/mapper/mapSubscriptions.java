@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 public class mapSubscriptions {
 
-    public static void mapSubscriptions(SubscriptionRequest request){
+    public static Subscription mapSubscriptions(SubscriptionRequest request){
         Subscription subscription = new Subscription();
         subscription.setSubscriptionType(request.getSubscriptionType());
         subscription.setPaymentDesc(request.getSubscriptionDesc());
@@ -15,5 +15,6 @@ public class mapSubscriptions {
         subscription.setUserToken(request.getUserToken());
         subscription.setPaymentDate(LocalDateTime.now());
         subscription.setActive(true);
+        return subscription;
     }
 }
