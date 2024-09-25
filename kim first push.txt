@@ -12,6 +12,7 @@ document.getElementById('myForm').addEventListener('submit', function (e) {
     if (!validateEmail(email)) {
         emailError.textContent = 'Invalid email format. Must contain "@" and "."';
         return;
+		//00
     }
 
     // If email is valid, proceed with form submission or further processing
