@@ -4,7 +4,7 @@ import com.semicolon.africa.arahasubcriptionapp.dtos.requests.SubscriptionReques
 import com.semicolon.africa.arahasubcriptionapp.exceptions.ValuesCannotBeEmptyException;
 
 
-public class validateSubscription {
+public class validations {
 
     public static void validateSubscription(SubscriptionRequest request){
         if (request.getSubscriptionDesc().equals(" ") || request.getSubscriptionType().equals(" ") || request.getAmount() == 0 || request.getUserToken().equals(" ")){

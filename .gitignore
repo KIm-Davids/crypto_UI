@@ -31,7 +31,6 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
-pom.xml
 application.properties
 
 
