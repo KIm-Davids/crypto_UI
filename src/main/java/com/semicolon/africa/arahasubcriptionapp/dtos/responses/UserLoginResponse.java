@@ -5,8 +5,8 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class UserResponse {
-    private String id;
-    private String email;
+public class UserLoginResponse {
+    private Long id;
+    private boolean isLoggedIn;
     private String message;
 }
