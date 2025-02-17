@@ -16,6 +16,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AccountBtns from "./components/AccountBtns";
 import ComingSoon from "./components/ComingSoon/ComingSoon";
 import Home from "./Home";
+import Whitepaper from "./components/WhitePaper/Whitepaper";
 
 const App = () => {
     // const [navMobile, setNavMobile] = useState(false); // State to control mobile menu visibility
@@ -33,6 +34,7 @@ const App = () => {
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/ComingSoon" element={<ComingSoon />} />
+                <Route path="/whitepaper" element={<Whitepaper />} />
             </Routes>
         </Router>
 

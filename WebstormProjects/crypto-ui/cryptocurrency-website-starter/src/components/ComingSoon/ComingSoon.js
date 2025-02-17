@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Logo from '../../assets/img/resized.png';
 import './ComingSoon.css';
 import Rocket from '../../assets/img/png-clipart-rocket-flat-design-rocket-3d-computer-graphics-grey-removebg-preview.png';
+import {Link} from "react-router-dom";
 
 const ComingSoon = () => {
     // Set the initial time values for 18 days, 15 hours, 30 minutes, and 50 seconds
@@ -80,7 +81,9 @@ const ComingSoon = () => {
                         <span>Seconds</span>
                     </div>
                 </div>
-                <button type="button">Download whitepaper</button>
+                <Link to="/whitepaper">
+                    <button type="button">Download whitepaper</button>
+                </Link>
             </div>
             <img src={Rocket} alt="Rocket" className='rocket-man' />
         </div>

@@ -54,11 +54,11 @@ const Footer = () => {
           </div>
     <div className='py-12'>
       <div className="container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between lg:gap-y-0">
-        <div>&copy; 2022 MCGA. All rights reserved.</div>
+        <div>&copy; 2025 MCGA. All rights reserved.</div>
       <div className='flex text-2xl gap-x-8'>
         <a href="#" className='hover:text-blue transition'><IoLogoYoutube/></a>
-        <a href="#" className='hover:text-blue transition'><IoLogoTwitter/></a>
-        <a href="#" className='hover:text-blue transition'><FaTelegramPlane/></a>
+        <a href="https://x.com/MCGA_MEME?s=08" className='hover:text-blue transition'><IoLogoTwitter/></a>
+        <a href="https://t.me/+W_8w-ljVVowxZjM0" className='hover:text-blue transition'><FaTelegramPlane/></a>
       </div>
       </div>
     </div>
