@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {currency} from '../data'
 import {IoIosArrowForward} from "react-icons/io";
+import {Link} from "react-router-dom";
 
 
 const Trade = () => {
@@ -21,8 +22,10 @@ const Trade = () => {
                         <div className='text-lg text-gray-400 font-medium'>{abbr}</div>
                       </div>
                       <p className='mb-6 text-center px-6'>{description}</p>
+                        <Link to="/ComingSoon">
                       <button className={` ${name===itemName ? 'text-white bg-blue hover:bg-blue-hover border-none pl-8 pr-6 gap-x-3': 'text-blue w-16'}border-2 border-gray-300 rounded-full h-16 flex justify-center items-center`}>{name === itemName && <div className='text-lg font-medium'>Start Mining</div>}<IoIosArrowForward className={`${name===itemName ? 'text-3xl' : 'text-3xl'}`}/></button>
-                    </div>
+                        </Link>
+                        </div>
                   </div>
                 })}
               </div>

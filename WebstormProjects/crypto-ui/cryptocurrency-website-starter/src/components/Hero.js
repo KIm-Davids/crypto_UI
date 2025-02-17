@@ -2,6 +2,7 @@ import React from 'react';
 // import Image from "../assets/img/hero-img.png"
 import Image from "../png-transparent-3d-rocket-removebg-preview.png"
 import {IoIosArrowDroprightCircle} from 'react-icons/io'
+import {Link} from "react-router-dom";
 
 
 const Hero = () => {
@@ -17,9 +18,11 @@ const Hero = () => {
         </div>
            <h1 className="text-[32px] lg:text-[64px] font-bold leadingg-tight mb-6" data-aos="fade-down" data-aos-delay="400">Join the Meme Revolution: Where Fun Meets Crypto!</h1>
           <p className="max-w-[440px] leading-relaxed mb-8" data-aos="fade-down" data-aos-delay="600">Get involved in a community that’s shaping the future of digital currency with humor at its core.</p>
+          <Link to="/ComingSoon">
           <button className="btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base" data-aos="fade-down" data-aos-delay="700">Join Now
           <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl"/>
           </button>
+          </Link>
         </div>
           <div  className="flex-1" >
             <img src={Image} alt="" data-aos="fade-up" data-aos-delay="600"/>

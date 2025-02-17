@@ -11,37 +11,31 @@ import Trade from "./components/Trade";
 import Features from "./components/Features";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import WalletContext from "./components/WalletContext";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AccountBtns from "./components/AccountBtns";
+import ComingSoon from "./components/ComingSoon/ComingSoon";
+import Home from "./Home";
 
 const App = () => {
-    const [navMobile, setNavMobile] = useState(false); // State to control mobile menu visibility
-
-    useEffect(() => {
-        Aos.init({
-            duration: 2500,
-            delay: 400
-        });
-    }, []);
+    // const [navMobile, setNavMobile] = useState(false); // State to control mobile menu visibility
+    //
+    // useEffect(() => {
+    //     Aos.init({
+    //         duration: 2500,
+    //         delay: 400
+    //     });
+    // }, []);
 
     return (
-        <div className="overflow-hidden">
-            <Header setNavMobile={setNavMobile} />
-            <Hero />
-            {/* Conditionally render NavMobile */}
-            {navMobile && (
-                <div
-                    className={`${navMobile ? 'right-0' : 'right-[-100%]'} fixed z-10 top-0 h-full transition-all duration-200`}
-                >
-                    <NavMobile setNavMobile={setNavMobile} />
-                </div>
-            )}
-            <Stats/>
-            <Why/>
-            <Calculate/>
-            <Trade/>
-            <Features/>
-            <Newsletter/>
-            <Footer/>
-        </div>
+        // Wrap the entire app with Router
+        <Router>
+            <Routes>
+                <Route path="/home" element={<Home />} />
+                <Route path="/ComingSoon" element={<ComingSoon />} />
+            </Routes>
+        </Router>
+
     );
 };
 

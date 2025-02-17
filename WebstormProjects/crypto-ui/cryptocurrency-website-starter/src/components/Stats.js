@@ -46,7 +46,6 @@ const Stats = () => {
                             <div className='text-gray'>Total Investment</div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

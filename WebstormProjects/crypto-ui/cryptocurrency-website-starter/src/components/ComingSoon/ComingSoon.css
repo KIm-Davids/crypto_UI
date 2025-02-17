@@ -1,0 +1,89 @@
+.coming_soon_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+    color: #fff; /* Ensure content text is white */
+}
+
+.logo {
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center; /* Center the text inside content */
+    position: relative;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: #ff3753;
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.content button img {
+    width: 15px;
+    margin-left: 10px;
+}
+
+.launch-time {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.launch-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+/* Rocket animation, now positioned in the center horizontally */
+.rocket-man {
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%); /* Center horizontally */
+    animation: rocket-man 4s linear infinite;
+}
+
+@keyframes rocket-man {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 105%;
+        opacity: 1;
+    }
+}

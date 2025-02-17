@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Calculate = () => {
   return (
@@ -45,9 +46,9 @@ const Calculate = () => {
 
           </div>
           <div className="flex justify-center mt-8">
-            <a href="/buy" className="btn btn-primary">
+            <Link to="/ComingSoon" className="btn btn-primary">
               Buy Now & Join the Fun
-            </a>
+            </Link>
           </div>
         </div>
       </section>

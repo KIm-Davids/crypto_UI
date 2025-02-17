@@ -34,6 +34,14 @@ module.exports = {
         newsletterBox: "url('/src/assets/img/newsletter-box.png')",
       },
     },
+      theme: {
+        extend: {
+          backgroundImage: {
+            'zigzag-gradient': 'linear-gradient(45deg, #B0B0B0 25%, #FFFFFF 25%, #FFFFFF 50%, #B0B0B0 50%, #B0B0B0 75%, #FFFFFF 75%, #FFFFFF 100%)',
+          },
+        },
+      },
+
     screens: {
       sm: '640px',
       md: '768px',

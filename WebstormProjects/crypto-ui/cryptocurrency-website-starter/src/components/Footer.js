@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from '../assets/img/logo.svg';
+import Logo from '../assets/img/smallersize.png';
 import VisaImg from '../assets/img/visa.png'
-import BitcoinImg from '../assets/img/bitcoin.png'
+import SolanaImg from '../assets/img/solana.png'
 import MasterCardImg from '../assets/img/mastercard.png'
 import {IoLogoYoutube, IoLogoInstagram, IoLogoTwitter} from 'react-icons/io'
 import { FaTelegramPlane } from 'react-icons/fa';
@@ -11,7 +11,7 @@ const Footer = () => {
   return <footer className='lg:pt-24 pt-0' data-aos='fade-up' data-aos-offset='400'>
           <div className="container mx-auto lg: mb-24">
             <div className='flex flex-col gap-12 lg:flex-row'>
-              <div className='flex-1 mx-auto lg:mx-0 mb-6 mzx-w-[250px] pt-10'>
+              <div className='flex-1 mx-auto lg:mx-0 mb-6 mx-w-[250px] pt-10'>
                 <a href="#">
                   <img src={Logo} alt=""/>
                 </a>
@@ -45,7 +45,8 @@ const Footer = () => {
                   <div className='flex justify-center items-center gap-6'>
                     <img src={VisaImg} alt=""/>
                     <img src={MasterCardImg} alt=""/>
-                    <img src={BitcoinImg} alt=""/>
+                    <div className='w-60'><img src={SolanaImg} alt=""/></div>
+
                   </div>
                 </div>
               </div>

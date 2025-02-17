@@ -1,5 +1,6 @@
 import React from 'react';
 import image2 from '../assets/img/hero1.png'
+import {Link} from "react-router-dom";
 
 const FeaturesSection2 = () => {
     return (
@@ -14,7 +15,9 @@ const FeaturesSection2 = () => {
                         <p className='text-gray mb-8 text-center lg:text-left'>
                             With MCGA, the fun is just getting started! Dive into the meme revolution where every moment is packed with laughter, excitement, and endless possibilities. Hodl tight – the fun never stops, and neither does the potential for growth!
                         </p>
+                            <Link to="/ComingSoon">
                         <button className='btn px-8 mb-6 lg:mb-0 mx-auto lg:mx-0 block'>Learn more</button>
+                            </Link>
                     </div>
                 </div>
             </div>
