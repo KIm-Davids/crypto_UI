@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 const AccountBtns = () => {
     return (
         <div className="flex items-center font-medium">
-            <a className="hover:text-blue transition" href="/login">
+            <a className="hover:text-blue transition" href="/ComingSoon">
                 Login
             </a>
             <span className="mx-6 text-white/20 font-thin">|</span>

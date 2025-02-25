@@ -82,7 +82,7 @@ const ComingSoon = () => {
                     </div>
                 </div>
                 <Link to="/whitepaper">
-                    <button type="button">Download whitepaper</button>
+                    <button type="button">View Whitepaper</button>
                 </Link>
             </div>
             <img src={Rocket} alt="Rocket" className='rocket-man' />

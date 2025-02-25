@@ -11,7 +11,6 @@ import Trade from "./components/Trade";
 import Features from "./components/Features";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
-import WalletContext from "./components/WalletContext";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AccountBtns from "./components/AccountBtns";
 import ComingSoon from "./components/ComingSoon/ComingSoon";

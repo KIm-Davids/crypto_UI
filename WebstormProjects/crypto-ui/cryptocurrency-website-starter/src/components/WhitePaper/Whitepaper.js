@@ -110,7 +110,6 @@ const WhitepaperPage = () => {
                         </ul>
                     </p>
 
-
                 </div>
 
             </div>

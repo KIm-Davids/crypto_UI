@@ -6,19 +6,19 @@ import LitecoinImg from './assets/img/litecoin.png';
 export const navData = [
   {
     name: 'Products',
-    href: '#',
+    href: '/ComingSoon',
   },
   {
     name: 'Features',
-    href: '#',
+    href: '/ComingSoon',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/ComingSoon',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/ComingSoon',
   },
 ];
 
