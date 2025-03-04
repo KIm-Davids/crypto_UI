@@ -13,12 +13,12 @@ export const navData = [
     href: '/ComingSoon',
   },
   {
-    name: 'About',
-    href: '/ComingSoon',
+    name: 'Twitter',
+    href: 'https://x.com/MCGA_MEME?s=08',
   },
   {
-    name: 'Contact',
-    href: '/ComingSoon',
+    name: 'Telegram',
+    href: 'https://t.me/+W_8w-ljVVowxZjM0',
   },
 ];
 

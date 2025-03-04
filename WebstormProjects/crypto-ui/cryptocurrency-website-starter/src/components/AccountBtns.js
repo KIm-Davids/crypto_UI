@@ -10,9 +10,9 @@ const AccountBtns = () => {
             <span className="mx-6 text-white/20 font-thin">|</span>
 
             {/* Use Link to navigate to ComingSoon */}
-            <Link to="/ComingSoon">
+            <Link to="/whitepaper">
                 <button className="btn h-[52px] text-base px-8">
-                    Download Whitepaper
+                    View Whitepaper
                 </button>
             </Link>
         </div>
